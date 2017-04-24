@@ -14,7 +14,6 @@ const Header = (props) => {
 
 const styles = {
   viewStyle: {
-    backgroundColor: '#F8F8F8',
     justifyContent: 'center',
     alignItems: 'center',
     height: 60,
@@ -22,7 +21,7 @@ const styles = {
     shadowColor: '#000',
     shadowOffSet: {
       width: 0,
-      height: 2
+      height: 1
     },
     shadowOpacity: 0.2,
     elevation: 2,

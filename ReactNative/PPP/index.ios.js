@@ -1,18 +1,6 @@
 import React from 'react';
-import { AppRegistry, View } from 'react-native';
-import Header from './src/components/header';
-import Home from './src/components/home';
-import CommunityList from './src/components/PersonalList';
-
-const App = () => {
-  return (
-    <View style={{ flex: 1 }}>
-      <Header headerText={'Home'} />
-      <CommunityList />
-      <Home />
-    </View>
-  );
-};
+import { AppRegistry, View , Text } from 'react-native';
+import App from './src/components/App';
 
 
 AppRegistry.registerComponent('PPP', () => App);
