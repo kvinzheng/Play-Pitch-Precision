@@ -6,14 +6,10 @@ import CommunityList from './src/components/PersonalList';
 
 const App = () => {
   return (
-<<<<<<< HEAD
-    <View>
-      <Header headerText={'NavBar'} />
-=======
+
     <View style={{ flex: 1 }}>
       <Header headerText={'Home'} />
-      <CommunityList />
->>>>>>> feature
+      {/* <CommunityList /> */}
       <Home />
     </View>
   );
